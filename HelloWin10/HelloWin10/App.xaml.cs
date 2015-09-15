@@ -40,7 +40,7 @@ namespace HelloWin10
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected async override void OnLaunched(LaunchActivatedEventArgs e)
         {
 
 #if DEBUG
@@ -58,6 +58,26 @@ namespace HelloWin10
             {
                 // Create a Frame to act as the navigation context and navigate to the first page
                 rootFrame = new Frame();
+
+                var connectionProfile = Windows.Networking.Connectivity.NetworkInformation.GetInternetConnectionProfile();
+                if (connectionProfile != null)
+                {
+                    FeedDataSource feedDataSource = (FeedDataSource)App.Current.Resources["feedDataSource"];
+                    if (feedDataSource != null)
+                    {
+                        if (feedDataSource.Feeds.Count == 0)
+                        {
+                            await feedDataSource.GetFeedsAsync();
+                        }
+                    }
+                }
+                else
+                {
+                    var messageDialog = new Windows.UI.Popups.MessageDialog("An internet connection is needed to download feeds. Please check your connection and restart the app.");
+                    var result = messageDialog.ShowAsync();
+                }
+
+
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
