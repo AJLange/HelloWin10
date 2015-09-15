@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\amlange\Documents\GitHub\HelloWin10\HelloWin10\HelloWin10\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-15T16:58:19.864</Modified>
+      <Modified>2015-09-15T17:49:19.490</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -64,15 +64,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\amlange\Documents\GitHub\HelloWin10\HelloWin10\HelloWin10\bin\x86\Debug\Core\entrypoint\HelloWin10.exe">
       <PackagePath>entrypoint\HelloWin10.exe</PackagePath>
-      <Modified>2015-09-15T16:58:18.578</Modified>
+      <Modified>2015-09-15T17:49:18.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\amlange\Documents\GitHub\HelloWin10\HelloWin10\HelloWin10\bin\x86\Debug\Core\HelloWin10.exe">
       <PackagePath>HelloWin10.exe</PackagePath>
-      <Modified>2015-09-15T16:58:19.857</Modified>
+      <Modified>2015-09-15T17:49:19.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\amlange\Documents\GitHub\HelloWin10\HelloWin10\HelloWin10\bin\x86\Debug\Core\HelloWin10.xr.xml">
       <PackagePath>HelloWin10.xr.xml</PackagePath>
-      <Modified>2015-09-15T16:22:34.441</Modified>
+      <Modified>2015-09-15T17:49:17.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\amlange\Documents\GitHub\HelloWin10\HelloWin10\HelloWin10\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -116,7 +116,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\amlange\Documents\GitHub\HelloWin10\HelloWin10\HelloWin10\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-09-15T16:58:19.211</Modified>
+      <Modified>2015-09-15T17:49:18.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\amlange\Documents\GitHub\HelloWin10\HelloWin10\HelloWin10\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

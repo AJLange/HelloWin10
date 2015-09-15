@@ -7,7 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+                <StackPanel>
+                    <Button Content="Click Me" Click="HelloButton_Click" />
+                    <TextBlock x:Name="DisplayText" FontSize="48" />
+                </StackPanel>
+            </Grid>
+        </Page>
 
-    </Grid>
-</Page>
+
